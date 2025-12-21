@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Orders</title>
+
+  <link rel="stylesheet" href="assets/css/ViewBookings.css">
+  <link rel="stylesheet" href="assets/css/ViewOrders.css">
+</head>
+
+<body>
+  <div class="Bookin">
+    <div class="container">
+      <header class="header-row">
+        <h1>Customer Orders</h1>
+        <a href="index.html" class="link-btn">⬅ Back</a>
+      </header>
+
+      <div id="info" class="info"></div>
+      <table id="orderTable" class="nice-table">
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Status</th>
+            <th>Total Amount</th>
+            <th>Reservation</th>
+            <th>Created At</th>
+            <th>Remaining Time</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div id="orderModal" class="order-modal">
+        <div class="order-modal-content">
+          <h3>Order Details</h3>
+
+          <table class="nice-table">
+            <thead>
+              <tr>
+                <th>Item Name</th>
+                <th>Qty</th>
+                <th>Unit Price</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody id="modalItemsBody"></tbody>
+          </table>
+
+          <button id="closeModal" class="link-btn">Close</button>
+        </div>
+      </div>
+
+      <p id="noData" class="no-data">No orders found</p>
+    </div>
+  </div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/ViewOrders.js"></script>
+</body>
+</html> 
+
+

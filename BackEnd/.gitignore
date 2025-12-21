@@ -1,0 +1,48 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+# The packages folder can be ignored because it can be restored
+**/packages/*
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Others
+*.log
+*.vsix
+*.cache
+*.dbmdl
+
+# Publish output
+*.Publish.xml
+*.deploy.cmd
+*.deploy-readme.txt
+
+# Web projects
+node_modules/
+wwwroot/lib/

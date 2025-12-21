@@ -1,0 +1,126 @@
+
+body{
+  font-family: "Cairo", Arial, sans-serif;
+  background-color: #000000ce;
+  direction: rtl;
+  color: #8b8f95;
+  margin: 0;
+  padding: 0;
+}
+
+.Bookin{
+  background: url("/assets/images/pagetitle-contact.jpg");
+  padding:30px;
+  height: 680px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  width:95%;
+  max-width:1100px;
+  margin:0 auto;
+  background: rgba(0, 0, 0, 0.75);
+  padding:22px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(10, 10, 20, 0.06);
+}
+
+.container.simple{
+  text-align:center;
+  max-width:700px;
+}
+
+.header-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  margin-bottom:10px;
+}
+
+h1{ margin:0; font-size:22px; }
+
+.info{
+  margin:12px 0;
+  color: #8b8f95;
+}
+
+.buttons-row{ display:flex; gap:10px; justify-content:center; margin:18px 0; }
+
+.primary-btn, .link-btn, .small-btn{
+  display:inline-block;
+  text-decoration:none;
+  border:none;
+  padding:10px 14px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.primary-btn{
+  background: #55d0ec;
+  color:white;
+}
+
+.link-btn{
+  background:transparent;
+  color: #55d0ec;
+  border:1px solid transparent;
+  padding:8px 12px;
+}
+
+.small-btn{
+  background:#eef6ff;
+  color: #55d0ec;
+  border:1px solid rgba(10,124,255,0.12);
+}
+
+.nice-table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:12px;
+  font-size:14px;
+}
+
+.nice-table th, .nice-table td{
+  border:1px solid #eef0f3;
+  padding:10px;
+  text-align:center;
+}
+
+.nice-table th{
+  background: #55d0ec;
+  color:white;
+  font-weight:600;
+}
+
+.cancel-btn{
+  background:#ff4b4b;
+  color:white;
+  border:none;
+  padding:8px 10px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.cancel-btn:disabled{
+  background:#cfcfcf;
+  cursor:not-allowed;
+}
+
+.status{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  font-weight:600;
+  font-size:13px;
+}
+
+.status.pending{ background:#fff7e6; color:#b66f00; }
+.status.cancelled{ background:#fdecea; color:#b71c1c; }
+.status.completed{ background:#e9f7ef; color:#137a2f; }
+.status.active{ background:#e8f3ff; color:#0463c9; }
+
+.no-data{ display:none; color:var(--muted); margin-top:18px; text-align:center; }
+
+.muted{ color:var(--muted); font-size:13px; }
