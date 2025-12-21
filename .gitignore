@@ -1,0 +1,82 @@
+# =========================
+# General
+# =========================
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# =========================
+# .NET / ASP.NET
+# =========================
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+AppPackages/
+artifacts/
+TestResults/
+*.dll
+*.exe
+*.pdb
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
+project.lock.json
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Uploads / Media
+# =========================
+uploads/
+media/
+images/
+*.mp4
+*.avi
+*.zip
+*.rar
