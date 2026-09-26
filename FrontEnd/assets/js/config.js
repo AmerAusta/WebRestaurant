@@ -1,1 +1,0 @@
-const API_BASE = "https://visiting-collector-temporal-click.trycloudflare.com/api/Restaurant";
