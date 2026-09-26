@@ -17,7 +17,7 @@ A robust backend Web API built for restaurant operations management, implementin
 * **Language:** C#
 * **Framework:** ASP.NET Core Web API
 * **Architecture:** 3-Tier (Presentation/API, Business Layer, Data Access Layer)
-* **Database & ORM:** SQL Server, Entity Framework Core / LINQ
+* **Database & ORM:** SQL Server, ADO.net
 
 ---
 
